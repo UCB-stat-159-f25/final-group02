@@ -1,0 +1,11 @@
+project:
+  title: "STAT 159 Final Project – Group 02"
+  author: "Group 02"
+  version: "1.0"
+
+site:
+  template: "book-theme"
+  nav:
+    - Introduction: Main.ipynb
+    - Analysis:
+        - Project Notebook: Project Notebook.ipynb

@@ -1,0 +1,4 @@
+format: jb-book
+root: Main.ipynb
+chapters:
+  - file: Project Notebook.ipynb
