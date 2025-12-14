@@ -3,7 +3,7 @@
 
 ## Group Members
 
-**Marcel Gunadi**, **Ethan Chant**, **Benson Chang**, **Sophie**
+**Marcel Gunadi**, **Ethan Chant**, **Benson Chang**, **Sophie Hanson**
 
 
 ## Project Description
