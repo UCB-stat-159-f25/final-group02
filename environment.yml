@@ -1,1 +1,9 @@
-name: stat159-final (fix later)
+name: stat159-final_group02
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - ipykernel=6.29
