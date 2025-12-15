@@ -12,6 +12,8 @@ site:
   template: "book-theme"
   nav:
     - title: Introduction
+      url: README.md
+    - title: Discussion
       url: main.ipynb
     - title: Analysis
       children:
