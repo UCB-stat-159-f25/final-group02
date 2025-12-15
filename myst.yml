@@ -1,7 +1,12 @@
+version: 1
+
 project:
   title: "STAT 159 Final Project – Group 02"
-  author: "Group 02"
-  version: "1.0"
+  author:
+    - name: Marcel Angelo Daniel Gunadi
+    - name: Ethan Juan Chant
+    - name: Benson Chang
+    - name: Sophie Hanson
 
 site:
   template: "book-theme"
