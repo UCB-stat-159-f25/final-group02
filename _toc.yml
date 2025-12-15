@@ -1,5 +1,8 @@
 format: jb-book
-root: README.md
+root: index.md
 chapters:
+  - file: README.md
+    title: Overview
   - file: main.ipynb
+    title: Report
   - file: Project Notebook.ipynb
