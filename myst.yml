@@ -11,6 +11,9 @@ project:
 site:
   template: "book-theme"
   nav:
-    - Introduction: Main.ipynb
-    - Analysis:
-        - Project Notebook: Project Notebook.ipynb
+    - title: Introduction
+      url: main.ipynb
+    - title: Analysis
+      children:
+        - title: Project Notebook
+          url: Project Notebook.ipynb
