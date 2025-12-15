@@ -4,9 +4,13 @@ project:
   title: "STAT 159 Final Project – Group 02"
   author:
     - name: Marcel Angelo Daniel Gunadi
+      orcid: 
     - name: Ethan Juan Chant
+      orcid: 
     - name: Benson Chang
+      orcid: 
     - name: Sophie Hanson
+      orcid: 0000-0003-4801-5781
   github: UCB-stat-159-f25/final-group02
 
 site:
