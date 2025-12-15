@@ -1,1 +1,79 @@
+what is orcid
+ORCID (Open Researcher and Contributor ID) is a nonproprietary alphanumeric code used to uniquely identify academic authors and researchers. It provides a persistent digital identifier that distinguishes one researcher from another, even if they have similar names, change institutions, or publish under different variations of their name.
 
+Researchers can link their ORCID iD to their publications, grants, and professional activities, which helps with proper attribution and tracking of their work across platforms, publishers, and institutions. Many journals, funding agencies, and universities now require or encourage researchers to have an ORCID iD.
+
+It essentially functions as a unique digital identity for anyone involved in research or scholarly communication.
+
+
+i pulled and theres updated files in git but its not updating them sayign git is alreadyupto date
+
+It sounds like Git thinks your branch is up to date because your local branch and the remote branch have the same commit history, but your working directory is not reflecting the changes. This usually happens when there are **local files that differ from the commit** (unstaged changes) or when files are being ignored incorrectly.
+
+You can force your local files to match the remote branch by doing a **hard reset**:
+
+1. **Fetch the latest state from remote**
+
+```
+git fetch origin
+```
+
+2. **Reset your branch to match remote** (replace `main` with your branch if needed)
+
+```
+git reset --hard origin/main
+```
+
+3. (Optional) **Remove any untracked files or directories**
+
+```
+git clean -fd
+```
+
+This will force all files to match the remote branch exactly.
+
+If you want, I can give a **safer version** that preserves any local work but still updates the files correctly. Do you want that?
+
+
+
+these 2 are clearly diff
+
+From the screenshots, I see the issue: Git thinks your local branch is up to date (HEAD matches origin/main), but the file contents you see locally don’t match what’s on GitHub. This usually happens when the commits you see on GitHub are on a different remote branch or fork than your local origin/main.
+
+Here’s how to confirm and fix it:
+
+Check which remote your local branch points to
+
+git remote -v
+
+
+Make sure origin matches the repository you are looking at on GitHub.
+
+Check all branches on the remote
+
+git fetch --all
+git branch -a
+
+
+Look for branches like origin/main vs origin/master or origin/other-branch that might contain the updated Main.ipynb.
+
+Compare the latest commits
+
+git log origin/main -1
+git log origin/HEAD -1
+
+
+Compare the commit hash on GitHub (shown in your screenshot) with your local origin/main.
+
+Force your branch to match a specific remote branch
+If the GitHub commit added docstring and updated main is on main, do:
+
+git fetch origin
+git reset --hard <commit-hash>
+
+
+Replace <commit-hash> with the latest commit on GitHub.
+
+From your screenshot, your local HEAD is at de7b87b Update contribution_statement.md, but GitHub’s latest commit is 5cb9721 added docstring and updated main. This explains why files appear different: your local branch is behind. Using reset --hard <commit-hash> will sync it exactly.
+
+If you want, I can give the exact command sequence to sync your local repo to that specific GitHub commit safely. Do you want me to do that?
