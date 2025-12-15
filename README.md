@@ -1,10 +1,9 @@
+---
+title: Overview
+---
+
 # Predicting Customer Churn in the IBM Telco Dataset  
 ### *STAT 159/259 Final Project Group 2*
-
-Click the Binder badge to access an executable version of code from the project notebook.
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UCB-stat-159-f25/final-group02.git/main?labpath=Project+Notebook.ipynb)
-
-[View MyST website here](https://UCB-stat-159-f25.github.io/final-group02)
 
 
 ## Group Members
@@ -15,6 +14,14 @@ Click the Binder badge to access an executable version of code from the project 
 ## Project Description
 
 This project analyzes the **IBM Telco Customer Churn dataset**, a simulated dataset describing a telecom company's customers. Our goal is to identify patterns associated with churn, build simple and interpretable predictive models, and derive insights that could inform targeted customer retention strategies.
+
+Click the Binder badge to access an executable version of code from the project notebook: 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UCB-stat-159-f25/final-group02.git/main?labpath=Project+Notebook.ipynb)
+
+[View MyST website here](https://UCB-stat-159-f25.github.io/final-group02)
+
+[GitHub repo](https://github.com/UCB-stat-159-f25/final-group02.git)
+
 
 ## Repository Structure
 
