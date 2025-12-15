@@ -1,6 +1,10 @@
 # Predicting Customer Churn in the IBM Telco Dataset  
 ### *STAT 159/259 Final Project Group 2*
 
+Click the Binder badge to access an executable version of code from the project notebook.
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UCB-stat-159-f25/final-group02.git/main?labpath=Project+Notebook.ipynb)
+
+
 ## Group Members
 
 **Marcel Gunadi**, **Ethan Chant**, **Benson Chang**, **Sophie Hanson**
