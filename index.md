@@ -1,8 +1,6 @@
 # STAT 159 Final Project – Group 02
 
-Welcome to Group 02's final STAT 159 project.
-
-Use the sidebar to navigate the site.
+Welcome to Group 02's final STAT 159 project. Use the sidebar to navigate the site.
 
 
 ## Project Description
