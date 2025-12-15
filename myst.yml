@@ -11,11 +11,5 @@ project:
 site:
   template: "book-theme"
   nav:
-    - title: Introduction
-      url: README.md
-    - title: Discussion
-      url: main.ipynb
-    - title: Analysis
-      children:
-        - title: Project Notebook
-          url: Project Notebook.ipynb
+    - title: GitHub
+      url: https://github.com/UCB-stat-159-f25/final-group02.git
