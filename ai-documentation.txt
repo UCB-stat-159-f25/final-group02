@@ -77,3 +77,58 @@ Replace <commit-hash> with the latest commit on GitHub.
 From your screenshot, your local HEAD is at de7b87b Update contribution_statement.md, but GitHub’s latest commit is 5cb9721 added docstring and updated main. This explains why files appear different: your local branch is behind. Using reset --hard <commit-hash> will sync it exactly.
 
 If you want, I can give the exact command sequence to sync your local repo to that specific GitHub commit safely. Do you want me to do that?
+
+
+how to add bibtex to git
+
+To add BibTeX files to Git, you just treat them like any other text file. Here is the typical workflow.
+
+Create or place your BibTeX file
+BibTeX files usually have the .bib extension. Put the file inside your Git repository directory, for example:
+
+references.bib
+
+
+Check repository status
+From the root of your repo, run:
+
+git status
+
+
+You should see the .bib file listed as untracked or modified.
+
+Add the BibTeX file to Git
+Stage the file:
+
+git add references.bib
+
+
+Or add all BibTeX files:
+
+git add *.bib
+
+
+Commit the file
+Commit it like any other file:
+
+git commit -m "Add BibTeX references"
+
+
+Push to the remote repository
+If you use a remote like GitHub or GitLab:
+
+git push
+
+
+Optional but useful tips:
+
+Keep BibTeX files as plain text
+Do not compress or generate them automatically unless necessary. Plain text makes diffs and reviews clean.
+
+Use one shared .bib file for papers or projects
+This reduces duplication and merge conflicts.
+
+Avoid auto-sorting on save if collaborating
+Some reference managers reorder entries, which can cause noisy diffs.
+
+If you want, tell me whether you are using LaTeX, Overleaf, VS Code, or a reference manager like Zotero and I can tailor the setup.
