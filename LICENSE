@@ -1,12 +1,9 @@
 Code License (BSD 3-Clause)
-All of the Python code in this repository is released under the BSD 3-Clause License.
-This allows others to reuse and modify the code with proper attribution.
+All of the Python code in this repository is released under the BSD 3-Clause License. This allows others to reuse and modify the code with proper attribution.
 Full text: https://opensource.org/licenses/BSD-3-Clause
 
 Text and Figures License (CC BY 4.0)
-All written content, notebooks, and figures are licensed under the
-Creative Commons Attribution 4.0 License. Others may reuse or adapt these
-materials as long as credit is given.
+All written content, notebooks, and figures are licensed under the Creative Commons Attribution 4.0 License. Others may reuse or adapt these materials as long as credit is given.
 Full text: https://creativecommons.org/licenses/by/4.0/
 
 (The IBM Telco dataset used in this project remains under its original license and is not owned by the authors)
