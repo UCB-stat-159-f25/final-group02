@@ -13,7 +13,9 @@ title: Overview
 
 ## Project Description
 
-This project analyzes the **IBM Telco Customer Churn dataset**, a simulated dataset describing a telecom company's customers. Our goal is to identify patterns associated with churn, build simple and interpretable predictive models, and derive insights that could inform targeted customer retention strategies.
+This project analyzes the **IBM Telco Customer Churn dataset**, a simulated dataset describing a telecom company's customers. Our goal is to identify patterns associated with churn, build simple and interpretable predictive models, and derive insights that could inform targeted customer retention strategies. 
+
+The IBM Telco Customer Churn dataset is publicly available from IBM. We do not claim ownership over this dataset.
 
 Click the Binder badge to access an executable version of code from the project notebook: 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UCB-stat-159-f25/final-group02.git/main?labpath=Project+Notebook.ipynb)

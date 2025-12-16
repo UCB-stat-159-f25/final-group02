@@ -132,3 +132,147 @@ Avoid auto-sorting on save if collaborating
 Some reference managers reorder entries, which can cause noisy diffs.
 
 If you want, tell me whether you are using LaTeX, Overleaf, VS Code, or a reference manager like Zotero and I can tailor the setup.
+
+
+LICENSE: you should explicitly state which licensing conditions apply to your work (see Github’s help). We strongly suggest looking at Victoria Stodden’s ENABLING REPRODUCIBLE RESEARCH: LICENSING SCIENTIFIC INNOVATION. She suggests a “Reproducible research standard” that licenses code, data and text/media materials in comparable terms that maximize resharing potential while providing due credit guarantees for the original authors.
+
+
+what does this mean do i need to add a file or is this just something i can tag with git webstie
+
+It means you are expected to **clearly declare the license terms for your work**, not just imply them. On GitHub, the standard and recommended way to do this is by **adding license files to the repository**, not only by tagging or selecting something on the website.
+
+Here is how this breaks down in practical terms.
+
+### Do you need to add a file?
+
+Yes. You should add at least one explicit license file to your repository.
+
+At minimum:
+
+* A `LICENSE` file at the root of the repo
+
+Often also:
+
+* A short license statement in your `README.md` that explains what applies to which parts of the project
+
+Relying only on a GitHub tag or repository setting is not sufficient for academic or reproducible research standards. Many users will clone or download your repo without ever seeing the GitHub UI.
+
+### What does “reproducible research standard” imply?
+
+Victoria Stodden’s recommendation is that **different components of a research project may need different licenses**, but they should be compatible and maximize reuse while preserving attribution.
+
+Typical structure:
+
+* **Code**: permissive open source license
+  Examples: MIT, BSD 3-Clause, Apache 2.0
+* **Data**: data friendly license
+  Examples: CC BY 4.0, CC0
+* **Text, figures, media**: content license
+  Examples: CC BY 4.0
+
+You can do this in two ways:
+
+1. One main `LICENSE` file plus a section in the README explaining how it applies to code, data, and text.
+2. Separate license files such as `LICENSE-code`, `LICENSE-data`, `LICENSE-text`.
+
+### Is tagging on GitHub enough?
+
+No. Selecting a license through GitHub’s interface usually just creates a `LICENSE` file for you. That is fine, but the **file itself** is what matters legally and academically.
+
+If there is no license file:
+
+* Others legally cannot reuse your work.
+* Reviewers may flag the project as noncompliant.
+* It fails the expectation implied by the assignment text you quoted.
+
+### Minimal compliant setup
+
+If you want the simplest acceptable solution:
+
+1. Add a `LICENSE` file.
+2. Add a short “License” section in your README explaining what applies to code, data, and text.
+3. Use well known standard licenses, not custom wording.
+
+If you want, tell me:
+
+* Whether your repo contains code only, or also data and papers.
+* Whether this is for a class, journal submission, or public research.
+
+I can then recommend specific licenses and exact wording.
+
+
+whats supposed to go in the liscence file
+
+The LICENSE file should contain the full legal text of the license you are applying, not a description or summary.
+
+What goes in it depends on what you are licensing. Below is the standard, accepted way to do this.
+
+If your project is mainly code
+
+Put one complete license text in a file named LICENSE.
+
+Example for MIT License:
+
+Title: MIT License
+
+Copyright line with year and your name
+
+Full MIT license text, word for word
+
+Nothing else. No explanations.
+
+If your project includes code, data, and writing
+
+You have two common options.
+
+Option 1: One LICENSE file plus README clarification
+
+In LICENSE, include the license that applies to the code only.
+
+Example:
+
+MIT License text
+
+Then in README.md, add a section like:
+
+Code is licensed under MIT
+
+Data is licensed under CC BY 4.0
+
+Text and figures are licensed under CC BY 4.0
+
+This is widely accepted and simple.
+
+Option 2: Multiple license files
+
+Create:
+
+LICENSE-code with the full code license text
+
+LICENSE-data with the full data license text
+
+LICENSE-text with the full text/media license text
+
+This is closer to Stodden’s recommendation but not always required.
+
+What should NOT go in LICENSE
+
+Do not summarize the license
+
+Do not mix multiple licenses into one file unless explicitly intended
+
+Do not write custom legal language
+
+Do not just say “see GitHub license tag”
+
+How do you get the correct text?
+
+GitHub’s “Add license” button inserts the correct text automatically
+
+Or copy directly from the official license site:
+
+opensource.org for MIT, BSD, Apache
+
+creativecommons.org for CC licenses
+
+Always use the exact text.
