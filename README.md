@@ -63,7 +63,7 @@ conda env create -f environment.yml
 ```
 To run the environment, run this command:
 ```bash 
-conda activate stat159-final
+conda activate stat159-final_group02
 ```
 
 
