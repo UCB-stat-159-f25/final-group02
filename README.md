@@ -5,6 +5,8 @@ title: Overview
 # Predicting Customer Churn in the IBM Telco Dataset  
 ### *STAT 159/259 Final Project Group 2*
 
+[![DOI](https://zenodo.org/badge/1101758874.svg)](https://doi.org/10.5281/zenodo.17970448)
+
 
 ## Group Members
 
