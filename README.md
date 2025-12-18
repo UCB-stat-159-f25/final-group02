@@ -44,6 +44,7 @@ Click the Binder badge to access an executable version of code from the project 
 ├── myst.yml                          # Reproducible environment
 ├── environment.yml                   # Reproducible Conda environment
 ├── Makefile                          # Automation for running notebooks
+├── references.bib                    # Bibliography for MyST/main.ipynb
 ├── README.md                         # Project documentation
 └── LICENSE                           # Project license
 
